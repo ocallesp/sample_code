@@ -1,5 +1,5 @@
 ﻿using System;
-using LibraryA;
+
 
 namespace TestProgram
 {
@@ -7,8 +7,8 @@ namespace TestProgram
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! ");
-            ClassA.Test();
+            Console.WriteLine("Hello  World!");
+            Class1.Test();
             Console.WriteLine("Done.");
             Console.ReadLine();
         }

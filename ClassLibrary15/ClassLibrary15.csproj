@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary16\ClassLibrary16.csproj" />
+    <ProjectReference Include="..\ClassLibrary17\ClassLibrary17.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TextFile15.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

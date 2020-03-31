@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibrary14\ClassLibrary14.csproj" />
+    <ProjectReference Include="..\ClassLibrary20\ClassLibrary20.csproj" />
+    <ProjectReference Include="..\ClassLibrary4\ClassLibrary4.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="TextFile2x.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>  
+  
+</Project>
