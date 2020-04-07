@@ -5,12 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary21\ClassLibrary21.csproj" />
+    <ProjectReference Include="..\ClassLibrary24\ClassLibrary24.csproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="TextFile20.txt">
+    <None Update="TextFile23.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
+  </ItemGroup>  
 </Project>

@@ -3,18 +3,19 @@ using System.IO;
 
 namespace TestProgram
 {
-    public static class Class20
+    public static class Class26
     {
         public static void Test()
         {
-            Console.WriteLine("Hello from   Class20!");
+            Console.WriteLine("Hello from Class26!");
 
-            const string fileName = "TextFile20.txt";
+            const string fileName = "TextFile26.txt";
             if (File.Exists(fileName))
             { Console.WriteLine(File.ReadAllText(fileName)); }
             else
             { Console.Error.WriteLine(fileName + " does not exist!"); }
-            Class21.Test();
+
+            Class27.Test();
         }
     }
 }

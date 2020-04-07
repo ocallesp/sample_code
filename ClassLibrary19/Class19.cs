@@ -14,6 +14,7 @@ namespace TestProgram
             { Console.WriteLine(File.ReadAllText(fileName)); }
             else
             { Console.Error.WriteLine(fileName + " does not exist!"); }
+            Class20.Test();
         }
     }
 }
